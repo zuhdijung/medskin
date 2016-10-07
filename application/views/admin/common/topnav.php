@@ -22,8 +22,10 @@
       <!-- User Account: style can be found in dropdown.less -->
       <li class="dropdown user user-menu">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Profile">
-
-          <img src="<?php echo base_url('assets/images/dokter.jpg')?>" class="img-circle" alt="User Image" width="20px" height="20px"> 
+          <?php
+          $profil = $this->mod->getdatawhere('user','id_user',$this->session->userdata('idAdmin'));
+          ?>
+          <img src="<?php echo base_url($profil['avatar'])?>" class="img-circle" alt="User Image" width="20px" height="20px">
           <span class="hidden-xs"><?php echo $this->session->userdata('username');?></span>
         </a>
         <ul class="dropdown-menu">

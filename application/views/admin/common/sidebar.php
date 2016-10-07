@@ -39,9 +39,8 @@
         <span class="label label-primary pull-right"></span>
       </a>
       <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('adminpanel/category/add_category') ?>"><i class="fa fa-plus"></i> Add Medical Record</a></li>
-        <li><a href="<?php echo base_url('adminpanel/category/manage_category') ?>"><i class="fa fa-sitemap"></i> Manage Medical Record</a></li>
-              </ul>
+        <li><a href="<?php echo base_url('adminpanel/medicalrecord/manage_medicalrecord') ?>"><i class="fa fa-sitemap"></i> Manage Medical Record</a></li>
+      </ul>
     </li>
     <li class="treeview">
       <a href="#">
@@ -52,30 +51,52 @@
       <ul class="treeview-menu">
         <li><a href="<?php echo base_url('adminpanel/news/add_news') ?>"><i class="fa fa-plus"></i> Add News</a></li>
         <li><a href="<?php echo base_url('adminpanel/news/manage_news') ?>"><i class="fa fa-file-o"></i> Manage News</a></li>
-        <li><a href="<?php echo base_url('adminpanel/news/add_read_news') ?>"><i class="fa fa-plus"></i> Add Read News</a></li>
-        <li><a href="<?php echo base_url('adminpanel/news/manage_read_news') ?>"><i class="fa fa-truck"></i>Manage Read News</a></li>
       </ul>
     </li>
+
     <li class="treeview">
-      <a href="#">
-        <i class="fa fa-heart" aria-hidden="true"></i>
-        <span>Love</span>
-        <span class="label label-primary pull-right"></span>
-      </a>
-      <ul class="treeview-menu">
-          <li><a href="<?php echo base_url('adminpanel/tip/add_tip') ?>"><i class="fa fa-plus"></i>Add Love</a></li>
-          <li><a href="<?php echo base_url('adminpanel/tip/manage_tip') ?>"><i class="fa fa-usd"></i>Manage Love</a></li>
-      </ul>
-    </li>
-        <li class="treeview">
       <a href="#">
         <i class="fa fa-weixin" aria-hidden="true"></i>
         <span>Chat</span>
         <span class="label label-primary pull-right"></span>
       </a>
       <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('adminpanel/promotion/add_promotion') ?>"><i class="fa fa-plus"></i>Add Chat</a></li>
-        <li><a href="<?php echo base_url('adminpanel/promotion/manage_promotion') ?>"><i class="fa fa-book"></i>Manage Chat</a></li>
+
+        <li><a href="<?php echo base_url('adminpanel/chat/manage_chat') ?>"><i class="fa fa-book"></i>Manage Chat</a></li>
+      </ul>
+    </li>
+    <li class="treeview">
+      <a href="#">
+        <i class="fa fa-usd" aria-hidden="true"></i>
+        <span>Payment</span>
+        <span class="label label-primary pull-right"></span>
+      </a>
+      <ul class="treeview-menu">
+          <li><a href="<?php echo base_url('adminpanel/payment/add_payment') ?>"><i class="fa fa-plus"></i>add payment</a></li>
+          <li><a href="<?php echo base_url('adminpanel/payment/manage_payment') ?>"><i class="fa fa-usd"></i>manage payment</a></li>
+      </ul>
+    </li>
+    <li class="treeview">
+      <a href="#">
+        <i class="fa fa-exchange" aria-hidden="true"></i>
+        <span>Transaction</span>
+        <span class="label label-primary pull-right"></span>
+      </a>
+      <ul class="treeview-menu">
+
+        <li><a href="<?php echo base_url('adminpanel/transaction/manage_transaction') ?>"><i class="fa fa-book"></i>Manage Transaction</a></li>
+      </ul>
+    </li>
+
+    <li class="treeview">
+      <a href="#">
+        <i class="fa fa-commenting" aria-hidden="true"></i>
+        <span>Comment</span>
+        <span class="label label-primary pull-right"></span>
+      </a>
+      <ul class="treeview-menu">
+
+        <li><a href="<?php echo base_url('adminpanel/comment/manage_comment') ?>"><i class="fa fa-book"></i>Manage Comment</a></li>
       </ul>
     </li>
 
